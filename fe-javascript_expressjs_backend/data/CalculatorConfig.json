@@ -1,0 +1,87 @@
+{
+  "gameName": "bandwidth_calculator",
+  "gameDisplayName": "Bandwidth Calculator",
+  "inputData": {
+    "inputs": [
+      {
+        "name": "questions",
+        "label": "Activity's Daily Hours"
+      },
+      {
+        "name": "video_streaming_4k",
+        "label": "4k Video Streaming",
+        "type": "number",
+        "default": 0
+      },
+      {
+        "name": "video_streaming_hd",
+        "label": "HD Video Streaming",
+        "type": "number",
+        "default": 0
+      },
+      {
+        "name": "video_streaming_sd",
+        "label": "SD Video Streaming",
+        "type": "number",
+        "default": 0
+      },
+      {
+        "name": "music_streaming",
+        "label": "Music Steaming",
+        "type": "number",
+        "default": 0
+      },
+      {
+        "name": "gaming",
+        "label": "Gaming",
+        "type": "number",
+        "default": 0
+      },
+      {
+        "name": "social_media",
+        "label": "Social Media Browsing",
+        "type": "number",
+        "default": 0
+      }
+    ]
+  },
+  "graphData": {
+  },
+  "outputData": {
+    "outputs": [
+      {
+        "name": "answers",
+        "label": "Data Usage (GB Monthly)"
+      },
+      {
+        "name": "min_bandwidth",
+        "label": "Min. Bandwidth",
+        "type": "integer"
+      },
+      {
+        "name": "average_bandwidth",
+        "label": "Average Bandwidth",
+        "type": "integer"
+      },
+      {
+        "name": "max_bandwidth",
+        "label": "Max Bandwidth",
+        "type": "integer"
+      }
+    ]
+  },
+  "pageData": {
+    "pages": {
+      "disclaimer": {
+        "name": "disclaimer",
+        "title": "Disclaimer",
+        "content": "***<i>A character's activities and metrics will dynamically change based on decisions and interactions.</i>"
+      },
+      "story": {
+        "name": "story",
+        "title": "The Story",
+        "content": "How do a character's activities shape their stats and overall well-being?"
+      }
+    }
+  }
+}
